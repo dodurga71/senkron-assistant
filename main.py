@@ -1,3 +1,4 @@
+from message_router import router as message_router
 from fastapi import FastAPI
 from app.routes.message_router import router as message_router
 
